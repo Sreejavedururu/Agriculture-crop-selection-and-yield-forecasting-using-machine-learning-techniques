@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<title>Upload </title>
+	<!-- Bootstrap core CSS -->
+	<link href="../static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Fontawesome CSS -->
+	<link href="../static/css/all.css" rel="stylesheet">
+	<!-- Custom styles for this template -->
+	<link href="../static/css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-light top-nav fixed-top">
+        <div class="container">
+             <a class="navbar-brand" href="index.html">
+            <img src="../static/images/footer-logo.png" alt="logo" />
+            </a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="fas fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+               <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                     <a class="nav-link" href="{{url_for('index')}}">Home</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="{{url_for('login')}}">Login</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link active" href="{{url_for('upload')}}">Upload</a>
+                  </li>
+                 
+                
+                  
+                  <li class="nav-item">
+                     <a class="nav-link" href="{{url_for('preview')}}">Preview</a>
+                  </li>
+               </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="slider-main">
+        <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+ 
+            <div class="carousel-inner" role="listbox">
+               <!-- Slide One - Set the background image for this slide in the line below -->
+               <div class="carousel-item active" style="background-image: url('../static/images/slider-07.jpg')">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h2>Crop Recommender System Using Machine Learning Approach</h2>
+                      
+                  </div>
+               </div>
+               <!-- Slide Two - Set the background image for this slide in the line below -->
+              
+               <!-- Slide Three - Set the background image for this slide in the line below -->
+               
+            </div>
+             
+        </div>
+    </header>
+    <!-- Page Content -->
+    <div class="container">
+        <div class="services-bar">
+            <center><h1 class="my-4">Upload </h1></center>
+            <!-- Services Section -->
+            <div class="row">
+                
+				
+			   <body id="page-top">
+ 
+
+ <!-- About Section -->
+  <section class="col-md-12 col-sm-12 col-xs-12" id="about">
+     
+	 
+ 
+      <!-- About Section Heading -->
+   
+
+      <!-- Icon Divider -->
+       
+      <!-- About Section Content -->
+  
+         <div class="col-md-12 col-sm-12 col-xs-12" style="margin-left:480px;">
+		  
+          <form action="http://localhost:5000/preview" name="fs" id="fs" method="post" enctype=multipart/form-data>
+                       <br/>
+                      <input type="file" name="datasetfile" id="file1" required /> 
+                       <br/>
+					   <br/>
+					   <br/>
+                    <input type="submit" style="margin-right:250px" class="btn btn-success btn-large" value="Upload"> 
+                      </form>
+      </div>
+    
+  </section>
+
+
+
+  
+ 
+
+
+ 
+
+</body>
+			 
+						 
+				   
+				
+				
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- Portfolio Section -->
+ 
+        <hr>
+        <!-- Get In Touch Now Section -->
+        
+    </div>
+    <!-- /.container -->
+    <!--footer starts from here-->
+    <footer class="footer">
+        <div class="container bottom_border">
+            <div class="row">
+               
+               <div class="col-lg-3 col-md-6 col-sm-6 col">
+					<h5 class="headin5_amrc col_white_amrc pt2"></h5>
+					<!--headin5_amrc ends here-->
+					 
+					<!--footer_ul2_amrc ends here-->
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<h5 class="headin5_amrc col_white_amrc pt2"></h5>
+					<!--headin5_amrc-->
+					 
+					<!--footer_ul_amrc ends here-->
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6 ">
+					<h5 class="headin5_amrc col_white_amrc pt2"></h5>
+					<!--headin5_amrc-->
+					<ul class="footer_ul_amrc">
+						<li class="media">
+							 
+							<div class="media-body">
+								<p></p>
+								<span></span>
+							</div>
+						</li>
+						<li class="media">
+							 
+							<div class="media-body">
+								<p></p>
+								<span></span>
+							</div>
+						</li>
+						<li class="media">
+							 
+							<div class="media-body">
+								<p><p>
+								<span></span>
+							</div>
+						</li>
+					</ul>
+					<!--footer_ul_amrc ends here-->
+				</div>
+			</div>
+		</div>
+        <div class="container">
+            <div class="footer-logo">
+				<a href="#"><img src="images/footer-logo.png" alt="" /></a>
+			</div>
+            <!--foote_bottom_ul_amrc ends here-->
+           
+            <!--social_footer_ul ends here-->
+        </div>
+    </footer>
+	  
+<!-- Bootstrap core JavaScript -->
+<script src="../static/vendor/jquery/jquery.min.js"></script>
+<script src="../static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
